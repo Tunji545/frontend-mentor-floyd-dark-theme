@@ -1,0 +1,359 @@
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    background-color: hsl(218, 28%, 13%);
+    color: hsl(0, 0%, 100%);
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.48;
+  }
+  h2 {
+    font-size: 2.1rem;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 1.48;
+  }
+  h2 ~ p {
+    text-align: center;
+    line-height: 1.48;
+    color: #cdcdcd;
+  }
+  .first-btn {
+    text-align: center;
+    width: 60%;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  nav {
+    background-color: hsl(218, 28%, 13%);
+  }
+  h1, h2, button, header nav {
+    font-family: 'Raleway', sans-serif;
+  }
+  a {
+    color: #bcbcbc;;
+  }
+  #id {
+    color: white;
+  }
+  .big-quotes {
+    margin-top: 150px;
+    padding-top: -20px;
+  }
+  .quotes {
+    width: 20px;
+    float: left;
+    position: relative;
+    bottom: 10px;
+  }
+  .diff {
+    clear: left;
+  }
+  .profile-1 + img {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    float: left;
+    margin-right: 10px;
+  }
+  .profile-1 ~ div :first-child {
+    font-weight: bold;
+    margin-bottom: 2px;
+  }
+  .profile-1 ~ div :last-child {
+    font-size: 1.0rem;
+  }
+  .testimonial3 {
+    margin-bottom: 70px;
+  }
+  .testimonials {
+    background-color: hsl(219, 30%, 18%);
+  }
+  .intro {
+    background-color: hsl(217, 28%, 15%);
+  }
+  input {
+    text-align: center;
+    width: 40%;
+    margin-left: 10%;
+    margin-right: 5%;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  button {
+    text-align: center;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 10%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: hsl(176, 68%, 64%);
+  }
+  footer {
+    background-color: hsl(216, 53%, 9%);
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  @media (max-width: 576px) {
+    nav {
+      width: 90%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .navbar-brand img:first-child {
+      max-width: 70px;
+    }
+    ul.nav {
+      font-size: 1.0rem;
+    }
+    .nav-link {
+      padding-right: 2px;
+    }
+    .intro-img {
+      margin-top: 100px;
+    }
+    .first-btn {
+      margin-top: 10px;
+      margin-bottom: 70px;
+    }
+    .security {
+      margin-top: 50px;
+    }
+    .security, .security + p {
+      text-align: center;
+    }
+    .collaboration {
+      margin-top: 50px;
+    }
+    .any-file {
+      margin-top: 50px;
+    }
+    .productive {
+      margin-top: 100px;
+      margin-bottom: 30px;
+    }
+    .intro {
+      margin-top: 100px;
+    }
+    .py-5 h2:first-child {
+      padding-bottom: 10px;
+    }
+    .py-5 h2:first-child + p {
+      padding-bottom: 10px;
+    }
+    form {
+      text-align: center;
+    }
+    form :first-child {
+      margin-bottom: 20px;
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+      padding: 10px;
+      border-radius: 20px;
+      font-size: 1.0rem;
+    }
+    form :last-child {
+      color: white;
+      margin-bottom: 20px;
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+      padding: 10px;
+      border-radius: 20px;
+      text-align: center;
+      text-transform: capitalize;
+    }
+    .logo2 {
+      margin-top: 70px;
+    }
+    .inline {
+      display: inline;
+    }
+    .relate {
+      margin-top: 10px;
+      margin-bottom: 40px;
+    }
+  }
+@media (min-width: 577px) and (max-width: 767px) {
+  nav {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .intro-img {
+    margin-top: 100px;
+  }
+  .first-btn {
+    width: 40%;
+    margin-bottom: 100px;
+    margin-top: 20px;
+  }
+  form :first-child {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1.0rem;
+  }
+  form :last-child {
+    margin-bottom: 20px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1.0rem;
+  }
+  .row-spacing {
+    margin-top: 100px;
+  }
+  .logo2 {
+    margin-top: 70px;
+  }
+  .footer {
+    position: relative;
+    top: 155px;
+  }
+  .footer2 {
+    position: relative;
+    top: 30px;
+  }
+  .inline {
+    display: inline;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  nav {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .intro-img {
+    margin-top: 100px;
+  }
+  .first-btn {
+    width: 40%;
+    margin-bottom: 100px;
+    margin-top: 20px;
+  }
+  .row-spacing {
+    margin-top: 100px;
+  }
+  form :first-child {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1.0rem;
+  }
+  form :last-child {
+    margin-bottom: 20px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1.0rem;
+  }
+  .logo2 {
+    margin-top: 70px;
+  }
+  .footer {
+    position: relative;
+    top: 155px;
+  }
+  .footer2 {
+    position: relative;
+    top: 30px;
+  }
+  .inline {
+    display: inline;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  nav {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .intro-img {
+    margin-top: 100px;
+  }
+  .first-btn {
+    width: 40%;
+    margin-bottom: 100px;
+    margin-top: 20px;
+  }
+  .row-spacing {
+    margin-top: 100px;
+  }
+  .logo2 {
+    margin-top: 70px;
+  }
+  .footer {
+    position: relative;
+    top: 155px;
+  }
+  .footer2 {
+    position: relative;
+    top: 150px;
+  }
+  .inline {
+    display: inline;
+  }
+}
+
+@media (min-width: 1200px) {
+  nav {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .intro-img {
+    margin-top: 100px;
+  }
+  .first-btn {
+    width: 40%;
+    margin-bottom: 100px;
+    margin-top: 20px;
+  }
+  .row-spacing {
+    margin-top: 100px;
+  }
+  .logo2 {
+    margin-top: 70px;
+  }
+  .footer {
+    position: relative;
+    top: 170px;
+    margin-left: 50px;
+  }
+  .footer2 {
+    position: relative;
+    top: 150px;
+    margin-left: 20px;
+  }
+  .inline {
+    display: inline;
+  }
+  p.attribution {
+    margin-top: 40px;
+  }
+}
